@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Form Validation"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDesign"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Material Design"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Intent Activity"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDesign" />
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="List View"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIntent" />
+
+    <Button
+        android:id="@+id/btnLifeCycle"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Life Cycle"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImageGuess" />
+
+    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Playground"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLifeCycle" />
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="To Do List (recycler list)"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMobile" />
+
+    <Button
+        android:id="@+id/btnImageGuess"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Image Guess"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
